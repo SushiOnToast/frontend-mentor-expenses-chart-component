@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Hosted on github pages](#)
+- Live Site URL: [Hosted on github pages](https://sushiontoast.github.io/frontend-mentor-expenses-chart-component/)
 
 ## My process
 
