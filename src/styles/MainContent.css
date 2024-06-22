@@ -1,0 +1,34 @@
+.MainContent {
+    flex-basis: 77%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.MainContent h2 {
+    color: hsl(25, 47%, 15%);
+}
+
+.MainContent p {
+    color: hsl(28, 10%, 53%);
+    line-height: 20px;
+}
+
+hr {
+    opacity: 15%;
+}
+
+.Summary {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Total {
+    align-self: flex-start;
+}
+
+.Percentage-change {
+    text-align: right;
+}

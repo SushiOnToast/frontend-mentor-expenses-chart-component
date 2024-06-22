@@ -1,0 +1,16 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "DM Sans", sans-serif;
+}
+
+#root {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(27, 66%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

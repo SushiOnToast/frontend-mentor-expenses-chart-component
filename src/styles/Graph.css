@@ -1,0 +1,48 @@
+.Graph {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.Bar {
+    flex-basis: 11%;
+    text-align: center;
+    position: relative;
+    transition-timing-function: ease-out;
+}
+
+.Amount {
+    height: 0px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.Amount:hover {
+    opacity: 0.45;
+    cursor: pointer;
+}
+
+.Hover-amount {
+    background-color: hsl(25, 47%, 15%);
+    color: white;
+    position: absolute;
+    padding: 7px;
+    border-radius: 4px;
+    top: -40px;
+    z-index: 10;
+    left: -50%; 
+    right: -50%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 60px;
+}
+
+.Hover-amount p {
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+

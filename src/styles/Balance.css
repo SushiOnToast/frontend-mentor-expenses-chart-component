@@ -1,0 +1,16 @@
+.Balance {
+    flex-basis: 20%;
+    background-color: hsl(10, 79%, 65%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+img {
+    height: 40px;
+}
+
+.Balance h2 {
+    margin-top: 3px;
+}
